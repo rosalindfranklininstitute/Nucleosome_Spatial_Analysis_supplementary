@@ -1,6 +1,6 @@
 # Nucleosome Spatial Analysis supplementary
 
-Source code generated using the aid of Anthropic's Claude Sonnet 5 and OpenAI's ChatGPT GPT-5 LLMs
+Source code generated using the aid of Anthropic's Claude Sonnet 5 and OpenAI's ChatGPT GPT-5 LLMs.
 
 ## Installation
 

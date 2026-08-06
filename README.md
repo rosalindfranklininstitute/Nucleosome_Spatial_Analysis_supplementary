@@ -1,4 +1,4 @@
-# Nucleosome Spatial Analysis
+# Nucleosome Spatial Analysis supplementary
 
 ## Installation
 
@@ -10,10 +10,9 @@ pip install -e .
 
 ### Command-line interface
 
-There are 3 commands available:
-* `graphs_and_pvalues`
-* `nucleosome_features_descriptors`
-* `umap_nucleosome_features_descriptors`
+There are 2 commands available:
+* `unionise`
+* `voronoi`
 
 To learn how to use each command the do:
 

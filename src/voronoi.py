@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """
    Copyright [2026] [Rosalind Franklin Institute]
 
@@ -15,8 +16,6 @@
 """
 
 # Co-Authored-By: ChatGPT GPT-5 noreply@openai.com
-
-#!/usr/bin/env python3
 
 import argparse
 import glob

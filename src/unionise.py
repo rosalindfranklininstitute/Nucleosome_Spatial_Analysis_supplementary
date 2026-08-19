@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """
    Copyright [2026] [Rosalind Franklin Institute]
 
@@ -15,8 +16,6 @@
 """
 
 # Co-Authored-By: Claude Sonnet 5 noreply@anthropic.com
-
-#!/usr/bin/env python3
 
 import subprocess
 import re
@@ -166,10 +165,10 @@ def trim_star_file_columns(input_file, num_columns=15):
 
 
 # ==== Configuration ====
-raw_dir          = "*"
-denoised_dir         = "*"
-unionise_script   = "*"
-output_dir        = raw_dir
+raw_dir          = "demo_unionise_raw_dir"
+denoised_dir      = "demo_unionise_denoised_dir"
+unionise_script   = "src/unionise_star.py"
+output_dir        = "demo_unionise_outputs"
 priority_source   = "raw"   # "raw" or "denoised"
 
 # Ellipsoidal overlap parameters

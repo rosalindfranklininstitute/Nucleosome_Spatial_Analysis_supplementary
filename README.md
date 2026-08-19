@@ -14,9 +14,11 @@ pip install -e .
 
 ## Command-line interface
 
-There are 2 commands available:
-* `unionise`
+There are 1 commands available:
 * `voronoi`
+
+And one script available:
+* `unionise`
 
 ## Demo
 
@@ -39,11 +41,17 @@ voronoi --group inactive "$(pwd)/demo_data/demo_inactive*.star" \
 Expected outputs: 
 - `demo_outputs/demo_voronoi_CDF_nm3.svg`
 
-### For Unionise (run time approximately:  )
-How to run:
+### For Unionise (run time approximately 1 minute 10-20 seconds )
+```shell
+cd path/to/Nucleosome_Spatial_Analysis_supplementary
+python src/unionise.py
+```
 
+If you want to use the unionise script for other data visit lines 168-172 of the
+`src/unionise.py` and edit the paths to the appropriate directories
+   
 Expected outputs: 
-
+- `demo_unionise_outputs/J271-3_TS_03_union_ellipsoid_ax12.0_rad24.0_cg27.0_ov0.1.star`
 
 ## License
 

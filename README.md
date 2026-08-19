@@ -4,23 +4,46 @@ Source code generated using the aid of Anthropic's Claude Sonnet 5 and OpenAI's 
 
 ## Installation
 
-You can install the package by running the following commands:
+In a Python 3.11 (or never) environment you can install the package by running the following commands:
 
 ```
 pip install -e .
 ```
 
-### Command-line interface
+(Approximate time for installation: 1 minute and 10-20 seconds)
+
+## Command-line interface
 
 There are 2 commands available:
 * `unionise`
 * `voronoi`
 
-To learn how to use each command the do:
+## Demo
 
+To demo the creation of feature descriptors run:
+
+### For Voronoi (run time approximately 1 min to 40 sec)
 ```shell
-command --help
+voronoi --group inactive "$(pwd)/demo_data/demo_inactive*.star" \
+  --group active "$(pwd)/demo_data/demo_active*.star" \
+  --angpix 2.33 \
+  --full-x 4096 \
+  --full-y 4096 \
+  --full-z 1200 \
+  --crop-x 3600 \
+  --crop-y 3600 \
+  --crop-z 200 \
+  --out-prefix demo_voronoi \
+  --out-dir $(pwd)/demo_outputs/
 ```
+Expected outputs: 
+- `demo_outputs/demo_voronoi_CDF_nm3.svg`
+
+### For Unionise (run time approximately:  )
+How to run:
+
+Expected outputs: 
+
 
 ## License
 
